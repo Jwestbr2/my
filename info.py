@@ -18,7 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Bot pics and stickers
 STICKERS = (environ.get('STICKERS', 'CAACAgIAAxkBAAEGm9hjhf69CtQmXoeQ2HidYCGBFeZ4gAACxgEAAhZCawpKI9T0ydt5RysE CAACAgIAAxkBAAEGm9pjhf7I9jCDh3PpkocMNFcPJfisvwAC0wADVp29CvUyj5fVEvk9KwQ CAACAgIAAxkBAAEGm9xjhf7SH4Yc8EP5yI4e8BTH968ClwACGAADDbbSGX671giQDJU8KwQ')).split()
-PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/23454b3f3ec40c214ca77.jpg https://telegra.ph/file/dfdb125f9cf8b869504cd.jpg https://telegra.ph/file/1dd58c8f3e40c97997887.jpg https://telegra.ph/file/8a9d8544b46b1d171a0f9.jpghttps://telegra.ph/file/7c345ea2f6679f18b4e5e.jpg')).split()
 
 # Bot Admins
 ADMINS = [int(admins) if id_pattern.search(admins) else admins for admins in environ.get('ADMINS', '').split()]
